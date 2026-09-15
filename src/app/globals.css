@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+  Section spacing rule (see CLAUDE.md)
+
+  Tag every page section with data-bg describing its visual background:
+    <section data-bg="light">...</section>
+    <section data-bg="dark">...</section>
+
+  - Each section gets its own vertical padding. Override per section with
+    --section-py, e.g. className="[--section-py:8rem]".
+  - When a section directly follows a sibling with the same data-bg, its top
+    padding is removed so the gaps do not double-stack.
+  - Different backgrounds keep full padding on both sides of the transition.
+  - Lives in the components layer, so an explicit Tailwind padding utility
+    (pt-12, py-20, etc.) on an individual section always wins.
+  - Add a matching selector below for any new data-bg value.
+*/
+@layer components {
+  [data-bg] {
+    padding-block: var(--section-py, 4rem);
+  }
+
+  @media (min-width: 768px) {
+    [data-bg] {
+      padding-block: var(--section-py, 6rem);
+    }
+  }
+
+  [data-bg="light"] + [data-bg="light"],
+  [data-bg="dark"] + [data-bg="dark"],
+  [data-bg="muted"] + [data-bg="muted"],
+  [data-bg="accent"] + [data-bg="accent"] {
+    padding-top: 0;
+  }
+}
