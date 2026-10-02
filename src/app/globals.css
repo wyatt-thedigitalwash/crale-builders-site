@@ -1,36 +1,87 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Crale Builders design tokens. Source of truth: SITE.md */
+@theme {
+  --color-seawall: #eceee9;
+  --color-ink: #231f20;
+  --color-ink-soft: #4b524d;
+  --color-crale-green: #006838;
+  --color-crale-green-dark: #00552e;
+  --color-evergreen: #0f3526;
+  --color-evergreen-deep: #0a2a1d;
+  --color-evergreen-ink: #e9ede7;
+  --color-evergreen-soft: #bccbc2;
+  --color-channel: #3d5f70;
+  --color-sign-yellow: #e8d44d;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Aliases used by the starter error and 404 pages */
+  --color-background: #eceee9;
+  --color-foreground: #231f20;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Mobile menu panel: fade in with a small rise */
+  --animate-menu-in: menu-in 220ms ease-out;
+
+  @keyframes menu-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme inline {
+  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
+  --font-body: var(--font-source-serif), Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  html {
+    scroll-padding-top: 6rem;
+  }
+
+  /* Stop the page behind the mobile menu from scrolling */
+  html:has(header[data-menu-open]),
+  html:has(dialog[open]) {
+    overflow: hidden;
+  }
+
+  body {
+    background-color: var(--color-seawall);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-crale-green);
+    outline-offset: 3px;
+  }
+
+  /* On Evergreen surfaces the focus ring switches to Job Sign Yellow */
+  [data-surface="evergreen"] :focus-visible,
+  [data-bg="evergreen"] :focus-visible,
+  header[data-menu-open] :focus-visible {
+    outline-color: var(--color-sign-yellow);
+  }
+
+  /* Header sitting transparently over a hero photo */
+  header[data-overlay] :focus-visible {
+    outline-color: #ffffff;
+  }
 }
 
 /*
   Section spacing rule (see CLAUDE.md)
 
   Tag every page section with data-bg describing its visual background:
-    <section data-bg="light">...</section>
-    <section data-bg="dark">...</section>
+    <section data-bg="seawall">...</section>
+    <section data-bg="white">...</section>
+    <section data-bg="evergreen">...</section>
 
   - Each section gets its own vertical padding. Override per section with
     --section-py, e.g. className="[--section-py:8rem]".
@@ -39,6 +90,7 @@ body {
   - Different backgrounds keep full padding on both sides of the transition.
   - Lives in the components layer, so an explicit Tailwind padding utility
     (pt-12, py-20, etc.) on an individual section always wins.
+  - data-bg also paints the background, so the attribute and the color never disagree.
   - Add a matching selector below for any new data-bg value.
 */
 @layer components {
@@ -52,10 +104,61 @@ body {
     }
   }
 
-  [data-bg="light"] + [data-bg="light"],
-  [data-bg="dark"] + [data-bg="dark"],
-  [data-bg="muted"] + [data-bg="muted"],
-  [data-bg="accent"] + [data-bg="accent"] {
+  [data-bg="seawall"] {
+    background-color: var(--color-seawall);
+  }
+
+  [data-bg="white"] {
+    background-color: #ffffff;
+  }
+
+  [data-bg="evergreen"] {
+    background-color: var(--color-evergreen);
+    color: var(--color-evergreen-ink);
+  }
+
+  [data-bg="seawall"] + [data-bg="seawall"],
+  [data-bg="white"] + [data-bg="white"],
+  [data-bg="evergreen"] + [data-bg="evergreen"] {
     padding-top: 0;
+  }
+}
+
+/* Respect the operating system's reduce-motion setting everywhere, including third-party styles. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*
+  Tap targets: on touch screens every link and button gets an invisible hit area of at least 44x44px,
+  centered on the visible element, so nothing about the design changes. Wrapped in :where() so any
+  Tailwind position utility (absolute, fixed, sr-only) still wins. Elements that already use ::after
+  (whole-card link overlays) are left alone.
+*/
+@media (pointer: coarse) {
+  :where(a[href], button, summary, [role="button"]):where(:not([class*="after:"])) {
+    position: relative;
+  }
+
+  :where(a[href], button, summary, [role="button"]):where(:not([class*="after:"]))::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: max(100%, 44px);
+    height: max(100%, 44px);
+    transform: translate(-50%, -50%);
+  }
+
+  /* Hit areas of the last links on the page must not add scroll height below the footer. */
+  #site-footer {
+    overflow: clip;
   }
 }

@@ -1,0 +1,464 @@
+[
+  {
+    "category": "Appliances",
+    "name_on_old_site": "Hanschbarger Home Solutions",
+    "corrected_name": "Hansbarger Home Solutions",
+    "url": "https://www.hansbargerhomesolutions.com"
+  },
+  {
+    "category": "Bathroom/Accessories",
+    "name_on_old_site": "Moen",
+    "corrected_name": "Moen",
+    "url": "https://www.moen.com/"
+  },
+  {
+    "category": "Cabinetry And Tops",
+    "name_on_old_site": "Bontrager Custom Cabinetry",
+    "corrected_name": "Bontrager Custom Cabinetry",
+    "url": null
+  },
+  {
+    "category": "Cabinetry And Tops",
+    "name_on_old_site": "Konkus Marble and Granite",
+    "corrected_name": "Konkus Marble and Granite",
+    "url": "https://www.konkusmarbleandgranite.com/"
+  },
+  {
+    "category": "Cabinetry And Tops",
+    "name_on_old_site": "Marble Arch Products",
+    "corrected_name": "Marble Arch Products",
+    "url": "http://www.marblearchproducts.com/"
+  },
+  {
+    "category": "Central Vacuum",
+    "name_on_old_site": "Central Vacs-N-More",
+    "corrected_name": "Central Vacs-N-More",
+    "url": "https://www.centralvacs-n-moreinc.com"
+  },
+  {
+    "category": "Columns, Railing, Fence",
+    "name_on_old_site": "HB&G Columns",
+    "corrected_name": "HB&G Columns",
+    "url": "https://www.hbgcolumns.com/"
+  },
+  {
+    "category": "Columns, Railing, Fence",
+    "name_on_old_site": "Superior Aluminum Products",
+    "corrected_name": "Superior Aluminum Products",
+    "url": "https://www.superioraluminum.com"
+  },
+  {
+    "category": "Decking",
+    "name_on_old_site": "Timbertech",
+    "corrected_name": "TimberTech",
+    "url": "https://www.timbertech.com/"
+  },
+  {
+    "category": "Decking",
+    "name_on_old_site": "Trex Decking",
+    "corrected_name": "Trex Decking",
+    "url": "https://www.trex.com/"
+  },
+  {
+    "category": "Fireplaces",
+    "name_on_old_site": "Dayton Fireplace",
+    "corrected_name": "Dayton Fireplace",
+    "url": "https://www.daytonfireplace.com"
+  },
+  {
+    "category": "Fireplaces",
+    "name_on_old_site": "Heat-N-Glo",
+    "corrected_name": "Heat & Glo",
+    "url": "https://www.heatnglo.com"
+  },
+  {
+    "category": "Fireplaces",
+    "name_on_old_site": "Quadra-Fire",
+    "corrected_name": "Quadra-Fire",
+    "url": "https://www.quadrafire.com/"
+  },
+  {
+    "category": "Flooring",
+    "name_on_old_site": "Bud Polly's Floor Center",
+    "corrected_name": "Bud Polley's Floor Center",
+    "url": "http://www.budpolley.com/"
+  },
+  {
+    "category": "Flooring",
+    "name_on_old_site": "Florida Tile",
+    "corrected_name": "Florida Tile",
+    "url": "https://www.floridatile.com/"
+  },
+  {
+    "category": "Flooring",
+    "name_on_old_site": "Fultz Flooring - Warehouse Carpets",
+    "corrected_name": "Fultz Flooring - Warehouse Carpets",
+    "url": "https://www.fultzflooring.com/"
+  },
+  {
+    "category": "Flooring",
+    "name_on_old_site": "Moore Tech Corp",
+    "corrected_name": "Moore Tech Corp",
+    "url": null
+  },
+  {
+    "category": "Foundation And Concrete",
+    "name_on_old_site": "JR Edwards Concrete Co.",
+    "corrected_name": "JR Edwards Concrete Co.",
+    "url": null
+  },
+  {
+    "category": "Foundation And Concrete",
+    "name_on_old_site": "RF Wohehrmyer Concrete Construction, Inc.",
+    "corrected_name": "R.F. Woehrmyer Concrete Construction, Inc.",
+    "url": "https://www.rfwoehrmyerconcrete.com"
+  },
+  {
+    "category": "Garage Doors And Operators",
+    "name_on_old_site": "C.H.I. Overhead Door",
+    "corrected_name": "C.H.I. Overhead Door",
+    "url": "https://www.chiohd.com"
+  },
+  {
+    "category": "Garage Doors And Operators",
+    "name_on_old_site": "Clopay",
+    "corrected_name": "Clopay",
+    "url": "https://www.clopaydoor.com/"
+  },
+  {
+    "category": "Garage Doors And Operators",
+    "name_on_old_site": "HAAS Door",
+    "corrected_name": "HAAS Door",
+    "url": "https://www.haasdoor.com/"
+  },
+  {
+    "category": "Garage Doors And Operators",
+    "name_on_old_site": "Liftmaster",
+    "corrected_name": "LiftMaster",
+    "url": "https://www.liftmaster.com"
+  },
+  {
+    "category": "Garage Doors And Operators",
+    "name_on_old_site": "Linear Gate Openers",
+    "corrected_name": "Linear Gate Openers",
+    "url": "https://lineargateopeners.com/"
+  },
+  {
+    "category": "Garage Doors And Operators",
+    "name_on_old_site": "Moeller Door & Window",
+    "corrected_name": "Moeller Door & Window",
+    "url": "https://www.moellerdoorandwindow.com/"
+  },
+  {
+    "category": "Hardware",
+    "name_on_old_site": "Schlage",
+    "corrected_name": "Schlage",
+    "url": "https://www.schlage.com"
+  },
+  {
+    "category": "Insulation",
+    "name_on_old_site": "Current Insulation",
+    "corrected_name": "Current Insulation",
+    "url": "http://www.currentinsulation.com/"
+  },
+  {
+    "category": "Insulation",
+    "name_on_old_site": "Momper Insulation",
+    "corrected_name": "Momper Insulation",
+    "url": "https://www.momper.com/"
+  },
+  {
+    "category": "Insulation",
+    "name_on_old_site": "Nu-Wool Insulation",
+    "corrected_name": "Nu-Wool Insulation",
+    "url": "https://nuwool.com/"
+  },
+  {
+    "category": "Insulation",
+    "name_on_old_site": "Pothast Loxley Insulation, Inc.",
+    "corrected_name": "Pothast Loxley Insulation, Inc.",
+    "url": null
+  },
+  {
+    "category": "Interior Trim",
+    "name_on_old_site": "Fairwind Finishing",
+    "corrected_name": "Fairwind Finishing",
+    "url": null
+  },
+  {
+    "category": "Interior Trim",
+    "name_on_old_site": "GlobalPointe",
+    "corrected_name": "GlobalPointe",
+    "url": "https://www.global-pointe.com/"
+  },
+  {
+    "category": "Interior Trim",
+    "name_on_old_site": "Keim Lumber",
+    "corrected_name": "Keim Lumber",
+    "url": "https://www.keimlumber.com/"
+  },
+  {
+    "category": "Interior Trim",
+    "name_on_old_site": "Steves Doors",
+    "corrected_name": "Steves Doors",
+    "url": "http://www.stevesdoors.com/"
+  },
+  {
+    "category": "Light Fixtures",
+    "name_on_old_site": "Lyons Lighting Showroom",
+    "corrected_name": "Lyons Lighting Showroom",
+    "url": "https://lyonslightingshowroom.com"
+  },
+  {
+    "category": "Low Voltage",
+    "name_on_old_site": "Low Voltage Solutions, Inc.",
+    "corrected_name": "Low Voltage Solutions, Inc.",
+    "url": "https://www.installedbylvs.com"
+  },
+  {
+    "category": "Masonry",
+    "name_on_old_site": "Dutch Quality Stone",
+    "corrected_name": "Dutch Quality Stone",
+    "url": "http://dutchqualitystone.com"
+  },
+  {
+    "category": "Masonry",
+    "name_on_old_site": "Heritage Stone",
+    "corrected_name": "Heritage Stone",
+    "url": "http://www.heritagestoneonline.com/"
+  },
+  {
+    "category": "Masonry",
+    "name_on_old_site": "Minster Supply",
+    "corrected_name": "Minster Supply",
+    "url": "https://sthenrytileco.com"
+  },
+  {
+    "category": "Masonry",
+    "name_on_old_site": "Ohio Lumber Brick & Block",
+    "corrected_name": "Ohio Lumber Brick & Block",
+    "url": "http://ohiolumber.com/"
+  },
+  {
+    "category": "Masonry",
+    "name_on_old_site": "Provia Stone Veneer",
+    "corrected_name": "Provia Stone Veneer",
+    "url": "https://www.provia.com/"
+  },
+  {
+    "category": "Masonry",
+    "name_on_old_site": "Snyder Concrete Products",
+    "corrected_name": "Snyder Concrete Products",
+    "url": "http://www.snyderonline.com"
+  },
+  {
+    "category": "Masonry",
+    "name_on_old_site": "Stonecraft Industries",
+    "corrected_name": "Stonecraft Industries",
+    "url": "http://www.stonecraft.com"
+  },
+  {
+    "category": "Mechanicals",
+    "name_on_old_site": "Area Energy & Electric",
+    "corrected_name": "Area Energy & Electric",
+    "url": "https://areaelectric.com/"
+  },
+  {
+    "category": "Mechanicals",
+    "name_on_old_site": "C & J Plumbing, LLC",
+    "corrected_name": "C & J Plumbing, LLC",
+    "url": null
+  },
+  {
+    "category": "Mechanicals",
+    "name_on_old_site": "Lochards, Inc.",
+    "corrected_name": "Lochards, Inc.",
+    "url": "http://www.lochard-inc.com"
+  },
+  {
+    "category": "Mechanicals",
+    "name_on_old_site": "Steve & Ted's Services",
+    "corrected_name": "Steve & Ted's Services",
+    "url": "https://www.steveandtedsservices.com"
+  },
+  {
+    "category": "Painting",
+    "name_on_old_site": "Sherwin Williams",
+    "corrected_name": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/"
+  },
+  {
+    "category": "Plumbing Fixtures",
+    "name_on_old_site": "Clarion",
+    "corrected_name": "Clarion",
+    "url": "http://www.clarionbathware.com/"
+  },
+  {
+    "category": "Plumbing Fixtures",
+    "name_on_old_site": "E.L. Mustee and Sons",
+    "corrected_name": "E.L. Mustee and Sons",
+    "url": "https://mustee.com"
+  },
+  {
+    "category": "Plumbing Fixtures",
+    "name_on_old_site": "Maax - Aker",
+    "corrected_name": "Aker by MAAX",
+    "url": "https://akerbymaax.com/en"
+  },
+  {
+    "category": "Plumbing Fixtures",
+    "name_on_old_site": "Moen",
+    "corrected_name": "Moen",
+    "url": "https://www.moen.com/"
+  },
+  {
+    "category": "Roofing",
+    "name_on_old_site": "Certainteed",
+    "corrected_name": "CertainTeed",
+    "url": "https://www.certainteed.com"
+  },
+  {
+    "category": "Roofing",
+    "name_on_old_site": "GAF",
+    "corrected_name": "GAF",
+    "url": "https://www.gaf.com/en-us"
+  },
+  {
+    "category": "Roofing",
+    "name_on_old_site": "Lomanco",
+    "corrected_name": "Lomanco",
+    "url": "http://www.lomanco.com"
+  },
+  {
+    "category": "Roofing",
+    "name_on_old_site": "Owens Corning Roofing",
+    "corrected_name": "Owens Corning Roofing",
+    "url": "https://www.owenscorning.com/en-us"
+  },
+  {
+    "category": "Roofing",
+    "name_on_old_site": "Tampko",
+    "corrected_name": "TAMKO",
+    "url": "https://www.tamko.com"
+  },
+  {
+    "category": "Shelving",
+    "name_on_old_site": "Rubbermaid",
+    "corrected_name": "Rubbermaid",
+    "url": "https://www.rubbermaid.com/"
+  },
+  {
+    "category": "Shower Doors",
+    "name_on_old_site": "Basco",
+    "corrected_name": "Basco",
+    "url": "https://bascoshowerdoor.com"
+  },
+  {
+    "category": "Shower Doors",
+    "name_on_old_site": "Moeller Door & Window",
+    "corrected_name": "Moeller Door & Window",
+    "url": "https://www.moellerdoorandwindow.com/"
+  },
+  {
+    "category": "Siding",
+    "name_on_old_site": "Certainteed",
+    "corrected_name": "CertainTeed",
+    "url": "https://www.certainteed.com"
+  },
+  {
+    "category": "Siding",
+    "name_on_old_site": "Foundry Siding",
+    "corrected_name": "Foundry Siding",
+    "url": "https://foundrysiding.com/"
+  },
+  {
+    "category": "Siding",
+    "name_on_old_site": "James Hardi",
+    "corrected_name": "James Hardie",
+    "url": "https://www.jameshardie.com"
+  },
+  {
+    "category": "Siding",
+    "name_on_old_site": "LP Building Products",
+    "corrected_name": "LP Building Products",
+    "url": "https://lpcorp.com"
+  },
+  {
+    "category": "Siding",
+    "name_on_old_site": "Mastic",
+    "corrected_name": "Mastic",
+    "url": "https://www.plygem.com/siding/brands/mastic"
+  },
+  {
+    "category": "Siding",
+    "name_on_old_site": "Miratec Trim",
+    "corrected_name": "MiraTEC Trim",
+    "url": "https://miratecextira.com"
+  },
+  {
+    "category": "Spouting And Gutters",
+    "name_on_old_site": "Sidney Spouting Service",
+    "corrected_name": "Sidney Spouting Service",
+    "url": "https://www.sidneyspoutingserviceversailles.com"
+  },
+  {
+    "category": "Truss And Floor Systems",
+    "name_on_old_site": "Forest Products",
+    "corrected_name": "Forest Products",
+    "url": "https://forestproductsgroup.com"
+  },
+  {
+    "category": "Truss And Floor Systems",
+    "name_on_old_site": "Rindler Truss",
+    "corrected_name": "Rindler Truss",
+    "url": "https://rindlertruss.com"
+  },
+  {
+    "category": "Windows And Doors",
+    "name_on_old_site": "Alliance Windows",
+    "corrected_name": "Alliance Windows",
+    "url": "http://alliancewindows.com/"
+  },
+  {
+    "category": "Windows And Doors",
+    "name_on_old_site": "Anderson Windows and Doors",
+    "corrected_name": "Andersen Windows and Doors",
+    "url": "https://www.andersenwindows.com"
+  },
+  {
+    "category": "Windows And Doors",
+    "name_on_old_site": "Great Lake Windows",
+    "corrected_name": "Great Lakes Window",
+    "url": "http://www.greatlakewindows.com/"
+  },
+  {
+    "category": "Windows And Doors",
+    "name_on_old_site": "Masonite Doors",
+    "corrected_name": "Masonite Doors",
+    "url": "https://www.masonite.com"
+  },
+  {
+    "category": "Windows And Doors",
+    "name_on_old_site": "Moeller Door & Window",
+    "corrected_name": "Moeller Door & Window",
+    "url": "https://www.moellerdoorandwindow.com/"
+  },
+  {
+    "category": "Windows And Doors",
+    "name_on_old_site": "Pella Windows and Doors",
+    "corrected_name": "Pella Windows and Doors",
+    "url": "https://www.pella.com"
+  },
+  {
+    "category": "Windows And Doors",
+    "name_on_old_site": "Simonton Windows",
+    "corrected_name": "Simonton Windows",
+    "url": "https://www.simonton.com"
+  },
+  {
+    "category": "Windows And Doors",
+    "name_on_old_site": "Thermatru Doors",
+    "corrected_name": "Therma-Tru Doors",
+    "url": "https://www.thermatru.com"
+  }
+]

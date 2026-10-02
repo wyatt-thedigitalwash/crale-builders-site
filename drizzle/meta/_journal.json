@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789482791914,
+      "tag": "0000_fast_the_call",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790872519150,
+      "tag": "0001_majestic_may_parker",
+      "breakpoints": true
+    }
+  ]
+}

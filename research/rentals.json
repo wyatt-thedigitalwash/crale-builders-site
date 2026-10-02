@@ -1,0 +1,623 @@
+[
+  {
+    "city": "Anna",
+    "address": "202 Young",
+    "street": "Young",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Anna",
+    "address": "213 Main",
+    "street": "Main",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Anna",
+    "address": "211 Emerald",
+    "street": "Emerald",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Anna",
+    "address": "213 Emerald",
+    "street": "Emerald",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Anna",
+    "address": "208 Onyx",
+    "street": "Onyx",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Anna",
+    "address": "210 Onyx",
+    "street": "Onyx",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Troy",
+    "address": "2715 A Fairmont",
+    "street": "Fairmont",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Troy",
+    "address": "2715 B Fairmont",
+    "street": "Fairmont",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Troy",
+    "address": "2715 C Fairmont",
+    "street": "Fairmont",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Troy",
+    "address": "2715 D Fairmont",
+    "street": "Fairmont",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Troy",
+    "address": "65 A Heather",
+    "street": "Heather",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Troy",
+    "address": "65 B Heather",
+    "street": "Heather",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Troy",
+    "address": "67 A Heather",
+    "street": "Heather",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Troy",
+    "address": "67 B Heather",
+    "street": "Heather",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Tipp City",
+    "address": "413 Clover Hill",
+    "street": "Clover Hill",
+    "type": "House / Apartment",
+    "sqft": 1586,
+    "old_detail_page": "Rentals/413-Clover-Hill.html",
+    "images": [
+      "images/rentals/tipp city/exterior/413-Clover-Hill.jpg",
+      "images/rentals/tipp city/floor plans/413-Cover-Hill.png"
+    ]
+  },
+  {
+    "city": "Tipp City",
+    "address": "2004 Abby Glen",
+    "street": "Abby Glen",
+    "type": "Townhome",
+    "sqft": 1425,
+    "old_detail_page": "Rentals/2004-Abby-Glen.html",
+    "images": [
+      "images/rentals/tipp city/floor plans/2004-Abby-Glen.png"
+    ]
+  },
+  {
+    "city": "Tipp City",
+    "address": "567 Cider Mill",
+    "street": "Cider Mill",
+    "type": "Townhome",
+    "sqft": 1325,
+    "old_detail_page": "Rentals/567-575-Cider-Mill.html",
+    "images": [
+      "images/rentals/tipp city/exterior/567-575-Cider-Mill.jpg",
+      "images/rentals/tipp city/floor plans/567-Cider-Mill.png"
+    ]
+  },
+  {
+    "city": "Tipp City",
+    "address": "575 Cider Mill",
+    "street": "Cider Mill",
+    "type": "Townhome",
+    "sqft": 1325,
+    "old_detail_page": "Rentals/567-575-Cider-Mill.html",
+    "images": [
+      "images/rentals/tipp city/exterior/567-575-Cider-Mill.jpg",
+      "images/rentals/tipp city/floor plans/575-Cider-Mill.png"
+    ]
+  },
+  {
+    "city": "Tipp City",
+    "address": "581 Cider Mill",
+    "street": "Cider Mill",
+    "type": "Townhome",
+    "sqft": 1325,
+    "old_detail_page": "Rentals/581-585-Cider-Mill.html",
+    "images": [
+      "images/rentals/tipp city/exterior/581-585-Cider-Mill.jpg",
+      "images/rentals/tipp city/floor plans/581-Cider-Mill.png"
+    ]
+  },
+  {
+    "city": "Tipp City",
+    "address": "584 Cider Mill",
+    "street": "Cider Mill",
+    "type": "Townhome",
+    "sqft": 1415,
+    "old_detail_page": "Rentals/584-Cider-Mill.html",
+    "images": [
+      "images/rentals/tipp city/floor plans/584-Cider-Mill.png"
+    ]
+  },
+  {
+    "city": "Tipp City",
+    "address": "585 Cider Mill",
+    "street": "Cider Mill",
+    "type": "Townhome",
+    "sqft": 1325,
+    "old_detail_page": "Rentals/581-585-Cider-Mill.html",
+    "images": [
+      "images/rentals/tipp city/exterior/581-585-Cider-Mill.jpg",
+      "images/rentals/tipp city/floor plans/585-Cider-Mill.png"
+    ]
+  },
+  {
+    "city": "Indian Lake",
+    "address": "9847 Buckeye",
+    "street": "Buckeye",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "301 S. Miami",
+    "street": "S. Miami",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "303 S. Miami",
+    "street": "S. Miami",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "525 N. Miami",
+    "street": "N. Miami",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "527 N. Miami",
+    "street": "N. Miami",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "528 1/2 N. Miami",
+    "street": "N. Miami",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "528 N. Miami",
+    "street": "N. Miami",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "607 N. Miami",
+    "street": "N. Miami",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "619 St. Marys",
+    "street": "St. Marys",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "621 St. Marys",
+    "street": "St. Marys",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "113 E. Water",
+    "street": "E. Water",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "115 E. Water",
+    "street": "E. Water",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "528 S. Main",
+    "street": "S. Main",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "530 S. Main",
+    "street": "S. Main",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "693 Hoewisher",
+    "street": "Hoewisher",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "695 Hoewisher",
+    "street": "Hoewisher",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "880 Merri Lane",
+    "street": "Merri Lane",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "882 Merri Lane",
+    "street": "Merri Lane",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "3486 St Rt 29",
+    "street": "St Rt 29",
+    "type": "House / Apartment",
+    "sqft": null,
+    "old_detail_page": null,
+    "images": []
+  },
+  {
+    "city": "Sidney",
+    "address": "1611 Cumberland",
+    "street": "Cumberland",
+    "type": "Townhome",
+    "sqft": 1410,
+    "old_detail_page": "Rentals/1611-1621-Cumberland.html",
+    "images": [
+      "images/rentals/sidney/floor plans/1611-Cumberland.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "1621 Cumberland",
+    "street": "Cumberland",
+    "type": "Townhome",
+    "sqft": 1410,
+    "old_detail_page": "Rentals/1611-1621-Cumberland.html",
+    "images": [
+      "images/rentals/sidney/floor plans/1621-Cumberland.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "1691 Cumberland",
+    "street": "Cumberland",
+    "type": "Townhome",
+    "sqft": 1275,
+    "old_detail_page": "Rentals/1691-1701-Cumberland.html",
+    "images": [
+      "images/rentals/sidney/exterior/1691-1701-Cumberland.jpg",
+      "images/rentals/sidney/floor plans/1691-Cumberland.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "1701 Cumberland",
+    "street": "Cumberland",
+    "type": "Townhome",
+    "sqft": 1275,
+    "old_detail_page": "Rentals/1691-1701-Cumberland.html",
+    "images": [
+      "images/rentals/sidney/exterior/1691-1701-Cumberland.jpg",
+      "images/rentals/sidney/floor plans/1701-Cumberland.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "1743 Cumberland",
+    "street": "Cumberland",
+    "type": "Townhome",
+    "sqft": 1354,
+    "old_detail_page": "Rentals/1743-1755-Cumberland.html",
+    "images": [
+      "images/rentals/sidney/floor plans/1743-Cumberland.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "1755 Cumberland",
+    "street": "Cumberland",
+    "type": "Townhome",
+    "sqft": 1354,
+    "old_detail_page": "Rentals/1743-1755-Cumberland.html",
+    "images": [
+      "images/rentals/sidney/floor plans/1755-Cumberland.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "901 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1730,
+    "old_detail_page": "Rentals/901-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/exterior/901-Winter-Ridge.jpg",
+      "images/rentals/sidney/floor plans/901-Winter-Ridge.png",
+      "images/rentals/sidney/interior/small/901-01-SM.jpg",
+      "images/rentals/sidney/interior/small/901-02-SM.jpg",
+      "images/rentals/sidney/interior/small/901-03-SM.jpg",
+      "images/rentals/sidney/interior/small/901-04-SM.jpg",
+      "images/rentals/sidney/interior/small/901-05-SM.jpg",
+      "images/rentals/sidney/interior/small/901-06-SM.jpg",
+      "images/rentals/sidney/interior/small/901-07-SM.jpg",
+      "images/rentals/sidney/interior/small/901-08-SM.jpg",
+      "images/rentals/sidney/interior/small/901-09-SM.jpg",
+      "images/rentals/sidney/interior/small/901-10-SM.jpg"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "919 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1730,
+    "old_detail_page": "Rentals/919-921-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/floor plans/919-Winter-Ridge.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "921 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1730,
+    "old_detail_page": "Rentals/919-921-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/floor plans/921-Winter-Ridge.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "951 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1690,
+    "old_detail_page": "Rentals/951-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/exterior/949-951-Winter Ridge.jpg",
+      "images/rentals/sidney/floor plans/951-Winter-Ridge.png",
+      "images/rentals/sidney/interior/small/951-01-SM.jpg",
+      "images/rentals/sidney/interior/small/951-02-SM.jpg",
+      "images/rentals/sidney/interior/small/951-03-SM.jpg",
+      "images/rentals/sidney/interior/small/951-04-SM.jpg",
+      "images/rentals/sidney/interior/small/951-05-SM.jpg",
+      "images/rentals/sidney/interior/small/951-06-SM.jpg",
+      "images/rentals/sidney/interior/small/951-07-SM.jpg",
+      "images/rentals/sidney/interior/small/951-08-SM.jpg",
+      "images/rentals/sidney/interior/small/951-09-SM.jpg"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "956 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1645,
+    "old_detail_page": "Rentals/956-958-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/exterior/956-Winter-Ridge.jpg",
+      "images/rentals/sidney/floor plans/956-Winter-Ridge.png",
+      "images/rentals/sidney/interior/small/956-01-SM.jpg",
+      "images/rentals/sidney/interior/small/956-02-SM.jpg",
+      "images/rentals/sidney/interior/small/956-03-SM.jpg",
+      "images/rentals/sidney/interior/small/956-04-SM.jpg",
+      "images/rentals/sidney/interior/small/956-05-SM.jpg",
+      "images/rentals/sidney/interior/small/956-06-SM.jpg",
+      "images/rentals/sidney/interior/small/956-07-SM.jpg",
+      "images/rentals/sidney/interior/small/956-08-SM.jpg",
+      "images/rentals/sidney/interior/small/956-09-SM.jpg"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "958 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1645,
+    "old_detail_page": "Rentals/956-958-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/exterior/956-Winter-Ridge.jpg",
+      "images/rentals/sidney/floor plans/958-Winter-Ridge.png",
+      "images/rentals/sidney/interior/small/958-01-SM.jpg",
+      "images/rentals/sidney/interior/small/958-02-SM.jpg",
+      "images/rentals/sidney/interior/small/958-03-SM.jpg",
+      "images/rentals/sidney/interior/small/958-04-SM.jpg",
+      "images/rentals/sidney/interior/small/958-05-SM.jpg",
+      "images/rentals/sidney/interior/small/958-06-SM.jpg"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "962 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1450,
+    "old_detail_page": "Rentals/962-964-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/exterior/962-964-Winter-Ridge.jpg",
+      "images/rentals/sidney/floor plans/962-Winter-Ridge.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "964 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1450,
+    "old_detail_page": "Rentals/962-964-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/exterior/962-964-Winter-Ridge.jpg",
+      "images/rentals/sidney/floor plans/964-Winter-Ridge.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "967 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1375,
+    "old_detail_page": "Rentals/967-969-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/floor plans/967-Winter-Ridge.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "969 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1375,
+    "old_detail_page": "Rentals/967-969-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/floor plans/969-Winter-Ridge.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "973 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1360,
+    "old_detail_page": "Rentals/973-975-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/exterior/973-975-WinterRidge.jpg",
+      "images/rentals/sidney/floor plans/973-Winter-Ridge.png"
+    ]
+  },
+  {
+    "city": "Sidney",
+    "address": "975 Winter Ridge",
+    "street": "Winter Ridge",
+    "type": "Townhome",
+    "sqft": 1360,
+    "old_detail_page": "Rentals/973-975-Winter-Ridge.html",
+    "images": [
+      "images/rentals/sidney/exterior/973-975-WinterRidge.jpg",
+      "images/rentals/sidney/floor plans/975-Winter-Ridge.png"
+    ]
+  }
+]

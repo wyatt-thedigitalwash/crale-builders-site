@@ -1,0 +1,13 @@
+{
+  "name": "Crale Builders",
+  "short_name": "Crale",
+  "description": "Custom homes, remodeling, and Indian Lake homes in Sidney, Ohio.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ECEEE9",
+  "background_color": "#ECEEE9",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
