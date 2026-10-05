@@ -9,9 +9,9 @@ Before anything technical, confirm the site is not shipping with placeholder con
 - [ ] All placeholder copy replaced with real content (check SITE.md Content Status)
 - [ ] All placeholder images replaced with real client photos
 - [ ] Bio, testimonials, and service descriptions are final versions
-- [ ] Every instance of "Lorem ipsum," "placeholder," or draft-marker comments removed from the codebase
+- [x] Every instance of "Lorem ipsum," "placeholder," or draft-marker comments removed from the codebase (checked 2026-10-05)
 - [ ] Client has signed off on final copy and images
-- [ ] No em dashes anywhere in copy
+- [x] No em dashes anywhere in copy (checked 2026-10-05)
 
 If any item here is unchecked, stop. Do not launch.
 
@@ -26,28 +26,28 @@ If any item here is unchecked, stop. Do not launch.
 
 ## Phase 3 — Environment Variables
 
-- [ ] RESEND_API_KEY set in Vercel production
-- [ ] CONTACT_TO_EMAIL set to the client's actual receiving email
-- [ ] CONTACT_FROM_EMAIL set to a verified domain sender
-- [ ] Any other env vars (analytics IDs, API keys) set in Vercel production
-- [ ] No env vars accidentally left in client-side code
+- [x] RESEND_API_KEY set in Vercel production
+- [x] CONTACT_TO_EMAIL set to the client's actual receiving email (not an env var on this site: fixed in code to info@cralebuilders.com)
+- [x] CONTACT_FROM_EMAIL set to a verified domain sender (set in Vercel; must be an @thedigitalwash.com address)
+- [x] Any other env vars (analytics IDs, API keys) set in Vercel production (DATABASE_URL, BLOB_READ_WRITE_TOKEN, AUTH_FROM_EMAIL, ADMIN_EMAILS, SITE_URL)
+- [x] No env vars accidentally left in client-side code (security audit)
 
 ## Phase 4 — Email Deliverability (Resend)
 
-- [ ] Client's domain verified in Resend dashboard
-- [ ] DNS records for Resend (SPF, DKIM) added to domain and verified
+- [x] Client's domain verified in Resend dashboard (sending from thedigitalwash.com instead, verified)
+- [x] DNS records for Resend (SPF, DKIM) added to domain and verified (thedigitalwash.com shows verified in Resend)
 - [ ] Test submission of the contact form end-to-end
 - [ ] Confirm notification email arrives at client's inbox (not spam)
-- [ ] Confirm auto-reply email arrives at submitter's inbox (not spam)
-- [ ] Sender address matches a verified domain, not onboarding@resend.dev
+- [x] Confirm auto-reply email arrives at submitter's inbox (not spam) (n/a: the form sends no auto-reply)
+- [x] Sender address matches a verified domain, not onboarding@resend.dev
 
 ## Phase 5 — Redirects (Rebuilds Only)
 
 Skip this phase if the site is brand new with no prior web presence.
 
-- [ ] 301 redirects live in next.config.ts from all old URLs to new URLs
-- [ ] Test at least 10 high-traffic old URLs, confirm they land on the correct new pages
-- [ ] Test old URLs with and without trailing slashes
+- [x] 301 redirects live in next.config.ts from all old URLs to new URLs
+- [x] Test at least 10 high-traffic old URLs, confirm they land on the correct new pages (all 68 old URLs tested locally)
+- [x] Test old URLs with and without trailing slashes
 - [ ] Check Google Search Console for the old site's top URLs, make sure they're all mapped
 - [ ] If domain is changing, Change of Address submitted in Google Search Console
 
