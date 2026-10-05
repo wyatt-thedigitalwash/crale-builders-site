@@ -37,6 +37,8 @@ export function AboutStory() {
             alt="Three people reviewing a set of house plans at a conference table"
             placeholder="blur"
             preload
+            loading="eager"
+            fetchPriority="high"
             sizes="(min-width: 1024px) 40vw, 100vw"
             className="h-auto w-full rounded-[4px]"
           />

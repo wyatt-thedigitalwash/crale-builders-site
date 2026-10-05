@@ -71,6 +71,8 @@ export function PhotoHero({
         alt={alt}
         fill
         preload
+        loading="eager"
+        fetchPriority="high"
         placeholder="blur"
         sizes="100vw"
         className={`-z-20 object-cover ${imageClassName}`}

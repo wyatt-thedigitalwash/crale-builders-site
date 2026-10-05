@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { Suspense } from 'react';
 
 const LINKS = [
   { href: '/admin', label: 'Home' },
@@ -12,10 +13,26 @@ const LINKS = [
 const linkClass =
   'font-display text-[15px] font-[580] text-ink decoration-2 underline-offset-[10px] transition-colors hover:text-crale-green aria-[current=page]:text-crale-green aria-[current=page]:underline motion-reduce:transition-none';
 
-/** Portal sections, with the current one underlined in Crale green like the public site's header. */
+/**
+ * Portal sections, with the current one underlined in Crale green like the public site's header.
+ * The current page comes from the URL, which is only known at request time, so the highlighted version
+ * streams in inside Suspense and the same links render unhighlighted until then.
+ */
 export function PortalNav() {
-  const pathname = usePathname();
-  const isCurrent = (href: string) => (href === '/admin' ? pathname === href : pathname.startsWith(href));
+  return (
+    <Suspense fallback={<NavLinks pathname={null} />}>
+      <CurrentNav />
+    </Suspense>
+  );
+}
+
+function CurrentNav() {
+  return <NavLinks pathname={usePathname()} />;
+}
+
+function NavLinks({ pathname }: { pathname: string | null }) {
+  const isCurrent = (href: string) =>
+    pathname !== null && (href === '/admin' ? pathname === href : pathname.startsWith(href));
 
   return (
     <nav aria-label="Portal">

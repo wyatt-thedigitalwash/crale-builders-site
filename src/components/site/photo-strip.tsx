@@ -48,7 +48,8 @@ export function PhotoStrip({ id, label, photos, className = '' }: Props) {
                 width={photo.width}
                 height={photo.height}
                 placeholder={typeof photo.src === 'string' ? 'empty' : 'blur'}
-                sizes="(min-width: 1024px) 32vw, 80vw"
+                // Sized by height (14rem to 24rem), so a 4:3 photo shows about 300px wide on phones and 530px on desktop.
+                sizes="(min-width: 1024px) 540px, (min-width: 640px) 420px, 320px"
                 className="h-[clamp(14rem,28vw,24rem)] w-auto max-w-none rounded-[4px]"
               />
             </button>
